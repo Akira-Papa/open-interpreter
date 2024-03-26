@@ -1,3 +1,18 @@
+feat: Add devcontainer support for easy setup and usage
+
+このコミットでは、Open Interpreterのセットアップと使用を簡素化するためにdevcontainer設定ファイルを導入しました。ユーザーは、必要な依存関係と設定が全て整った開発環境を簡単に立ち上げることができるようになり、初期セットアップのプロセスを気にすることなくOpen Interpreterを使い始められるようになります。
+
+devcontainerを使用することで、異なるマシンやプラットフォームで一貫した再現可能な環境をすぐに利用できるようになり、Open Interpreterの使用がより便利になります。
+
+主な変更点:
+- .devcontainerディレクトリとその中の設定ファイルを追加
+- devcontainerイメージをビルドするためのDockerfileを含める 
+- devcontainer.jsonに必要な拡張機能と設定を指定
+- devcontainerの使用方法についてREADME.mdを更新
+
+この変更により、Open Interpreterのセットアップと使用における障壁が下がり、より多くのユーザーが簡単に利用できるようになります。
+
+
 <h1 align="center">● Open Interpreter</h1>
 
 <p align="center">
